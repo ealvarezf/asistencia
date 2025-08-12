@@ -16,10 +16,6 @@ KEYFEC = config["FECHA"]
 SQ = "%"
 DRIVER = "ODBC Driver 17 for SQL Server"  # Asegúrate de tener este driver instalado
 
-# Ahora puedes usar estos valores para la conexión
-# st.write(KEYFEC)
-# st.write(SERVER, DATABASE, USERNAME)
-
 try:
     # Crear la conexión a SQL Server
     conn = pyodbc.connect(
